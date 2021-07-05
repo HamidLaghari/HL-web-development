@@ -1,0 +1,490 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+}
+#navbar
+{
+    background-color: black;
+    height: 20%;
+    width: 100%;
+    position: relative;
+    
+
+}
+#navbar ol
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+#navbar ol li
+{
+    padding: 30px 25px;
+    cursor: pointer;
+    
+}
+#navbar ol li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+#navbar ol li a:hover
+{
+    color: #EC7444;   
+}
+#intro
+{
+    width: 100%;
+    height: 70vh;
+    background: url(../images/aboutbanner.jpg);
+    background-size: cover;
+}
+#intro #content
+{
+    color: white;
+    padding-left: 400px;
+    padding-top: 10%;
+}
+#intro #content h1
+{
+    
+    padding-left: 150px;
+    font-size: 3em;
+}
+#intro #content h2
+{
+    padding-top: 5px;
+    line-height: 3em;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#intro #content h1:hover
+{
+    color: #EC7444;
+    cursor: default;
+}
+#intro #content h2:hover
+{
+    color: #EC7444;
+    cursor: default;
+}
+.intro
+{
+    width: 100%;
+    height: auto;
+}
+.intro .line
+{
+    margin-left: 60px;
+    margin-top:80px;
+    width: 60px;
+    display: inline-block;
+}
+.intro .work
+{
+    color: #ffffff;
+    font-size:20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: inline;
+    padding-left: 20px;
+    position: relative;
+    top: 5px;
+    
+}
+.intro h1
+{
+    font-size: 40px;
+    line-height: 1.5em;
+    padding-right: 60px;
+    color: white;
+    padding-right: 250px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.banner
+{
+    height: 1000px;
+    width: 100%;
+}
+.banner .left
+{
+    
+    height: auto;
+    width: 50%;
+    float: left;
+}
+.banner .left .line
+{
+    margin-left: 60px;
+    margin-top: 100px;
+    width: 60px;
+    display: inline-block;
+}
+.banner .left .work
+{
+    color: #ffffff;
+    font-size:20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: inline;
+    padding-left: 20px;
+    position: relative;
+    top: 5px;
+}
+.banner .left .image1
+{
+    margin-top: 80px;
+    padding-left: 70px;
+}
+.banner .left .work2
+{
+    color: #FFFFFF;
+    font-size: 30px;
+    display: inline;
+    padding-left: 40px;
+    position: relative;
+    bottom: 3px;
+}
+.banner .left .define
+{
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 200px;
+    color: white;
+    line-height: 1.5em;
+}
+.banner .left .image2
+{
+    width: 500px;
+    padding-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.banner .right
+{
+    height: auto;
+    padding-top: 105px;
+    width: 50%;
+    float: right;
+}
+.banner .right .image1
+{
+    margin-top: 80px;
+    padding-left: 70px;
+}
+.banner .right .work2
+{
+    color: #FFFFFF;
+    font-size: 30px;
+    display: inline;
+    padding-left: 40px;
+    position: relative;
+    bottom: 3px;
+}
+.banner .right .define
+{
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 200px;
+    color: white;
+    line-height: 1.5em;
+}
+.banner .right .center
+{
+    width:40%;
+    position: relative;
+    top: 70px;
+    width: 100%;   
+    padding: 20px;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+}
+.banner .right h1
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.banner .right .line4
+{
+    
+    position: relative;
+    left: 20px;
+    top: 100px;
+    width:60px;
+    display: inline-block;
+}
+.banner .right .us
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: inline;
+    position: relative;
+    left: 40px;
+    top: 105px;
+}
+.banner .right .skillbox
+{
+    
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+.banner .right .skillbox p
+{
+    
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0 0 0 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.banner .right .skillbox p:nth-child(2)
+{
+    float: right;
+    position: relative;
+    top: -25px;
+}
+.banner .right .skill
+{
+    background: black;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.banner .right .skill_level
+{
+    background: #EC7444 ;
+    width: 100%;
+    height: 10px;
+}
+.card
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.card .container
+{
+    position: relative;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card .container .cards
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient( #EC7444, #EC7444 30%, black 30%, #1d3548 );
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.card .container .cards .img8x
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 10000;
+    border-radius: 20px;
+    overflow: hidden;
+    transform-origin: top;
+}
+.card .container .cards:hover .img8x
+{
+    transform: translateY(30px)scale(0.5);
+}
+.card .container .cards .img8x img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .container .cards .content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* padding-bottom: 30px; */
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+.card .container .cards:hover .content
+{
+    transform: translateY(0);
+}
+.card .container .cards .content .details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.card .container .cards .content .details h2
+{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+.card .container .cards .content .details h2 span
+{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #EC7444 ;
+
+}
+.card .social_icons
+{
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+}
+.card .social_icons li
+{
+    list-style: none;
+    margin: 4px;
+}
+.card .social_icons li a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #294d69;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.card .social_icons li a:hover
+{
+    transform: rotate(360deg);
+    background: #EC7444;
+
+}
+.fotter-wraper
+{
+    padding-top: 50px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+   
+}
+
+.fotter-wraper .footer
+{
+    
+    background-color: #2C2C2C;
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+
+}
+.fotter-wraper .footer ol
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+
+    
+}
+.fotter-wraper .footer ol li
+{
+    padding: 50px 0 30px 30px;
+    cursor: pointer;
+    
+}
+.fotter-wraper .footer ol li a
+{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+.fotter-wraper .footer a:hover
+{
+    color: #EC7444;   
+}
+.fotter-wraper .footer ol li img
+{
+    filter: invert(1);
+    position: relative;
+    left: 100px;
+    width: 30px;
+}
+.fotter-wraper .footer ol li img::before
+{
+    width: 30px;
+}
+.fotter-wraper .footer ol li img::after
+{
+    box-sizing: border-box;
+}
+.fotter-wraper .footer hr
+{
+    position: relative;
+    top: 16px;
+    width: 80%;
+    left: 145px;
+}
+.fotter-wraper .footer p
+{
+    background-color: #2C2C2C;
+    color: white;
+    padding-left: 145px;
+    padding-top: 20px;
+}
+a:active
+{
+    color: #EC7444;
+}
+
